@@ -1,7 +1,7 @@
 # Commands
 
 > Set Environment Variable for DDS
-`xport NDDSHOME=~/rti/ndds.5.0.1/`
+`export NDDSHOME=~/rti/ndds.5.0.1/`
 
 > View Serial Device Attributes
 `devcadm info -a -n /dev/ttyUSB0`
