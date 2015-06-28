@@ -37,6 +37,14 @@ $ `more /proc/meminfo`
 
 $ `egrep --color 'Mem|Cache|Swap' /proc/meminfo`
 
+Command History
+
+$ `CTRL - R`
+
+$ `history`
+
+$ `history | grep XXX`
+
 ## Git
 
 Add changes in the working directory to the staging area
