@@ -45,6 +45,14 @@ $ `history`
 
 $ `history | grep XXX`
 
+Check group user
+
+$ `getent group groupname`
+
+Add user to "dialout" group
+
+$ `sudo adduser second_user dialout`
+
 ## Git
 
 Add changes in the working directory to the staging area
