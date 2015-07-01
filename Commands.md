@@ -65,3 +65,15 @@ Add all changes in the working directory to the staging area
 
 $  `git add -A`
 
+Add a submodule
+
+$ `git submodule add [git clone url] [directory path]`
+
+Pull latest changes
+
+$ `git pull`
+
+$ `git pull origin [branch]`
+
+$ `git pull origin master`
+
