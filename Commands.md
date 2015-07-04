@@ -95,7 +95,7 @@ $ `git submodule foreach git pull [origin alias] [branch]`
 
 $ `git submodule foreach git pull`
 
-*From master branch*
+*For master branch*
 
 $ `git submodule foreach git pull origin master`
 
