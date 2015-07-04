@@ -24,9 +24,11 @@ $  `ps -ef | grep motion*`
 Use : `ipconfig` to find IP address
 
 *Format*
+
 $ `ping [address]`
 
 *Pinging Youtube*
+
 $ `ping youtube.com`
 
 **List all directory entries including files that start with `.`**
@@ -86,12 +88,15 @@ $ `git pull origin master`
 **Pull latest changes for all submodules**
 
 *Format*
+
 $ `git submodule foreach git pull [origin alias] [branch]`
 
 *Established branch*
+
 $ `git submodule foreach git pull`
 
 *From master branch*
+
 $ `git submodule foreach git pull origin master`
 
 
