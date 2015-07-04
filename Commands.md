@@ -20,8 +20,14 @@ $  `ps -ef`
 
 $  `ps -ef | grep motion*`
 
-**Check for network connection or liveliness of a machine, use : `ipconfig` to find IP address**
-$  `ping youtube.com`
+**Check for network connection or liveliness of a machine,** 
+Use : `ipconfig` to find IP address
+
+*Format*
+$ `ping [address]`
+
+*Pinging Youtube*
+$ `ping youtube.com`
 
 **List all directory entries including files that start with `.`**
 
