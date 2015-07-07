@@ -99,7 +99,7 @@ $ `git submodule foreach git pull`
 
 $ `git submodule foreach git pull origin master`
 
-** Reconcile detached HEAD with master/origin**
+**Reconcile detached HEAD with master/origin**
 
 1. Create a branch that points to the commit currently pointed to by your detached HEAD
 
@@ -125,11 +125,11 @@ You can abbreviate these two commmand by typing in:
 
 $ `git checkout -B master temp`
 
-4. You can delete the temporary branch
+4.  You can delete the temporary branch
 
 $ `git branch -d temp`
 
-5. Push the reestablished history
+5.  Push the reestablished history
 
 $ `git push origin master`
 
