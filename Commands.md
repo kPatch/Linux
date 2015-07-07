@@ -99,27 +99,39 @@ $ `git submodule foreach git pull`
 
 $ `git submodule foreach git pull origin master`
 
-** Reconcile detached HEAD with master/origin
+** Reconcile detached HEAD with master/origin**
 
 1. Create a branch that points to the commit currently pointed to by your detached HEAD
+
 $ `git branch temp`
+
 $ `git checkout temp`
 
 2. You should compare the current commit with the normal branch on which you expected to be working
+
 $ `git log --graph --decorate --pretty=oneline --abbrev-commit master origin/master temp`
+
 $ `git diff master temp`
+
 $ `git diff origin/master temp`
 
 3. If your new branch `temp` looks good, you may want to update `master` to point to it
+
 $ `git branch -f master temp`
+
 $ `git checkout master`
+
 You can abbreviate these two commmand by typing in:
+
 $ `git checkout -B master temp`
 
 4. You can delete the temporary branch
+
 $ `git branch -d temp`
 
 5. Push the reestablished history
+
 $ `git push origin master`
+
 *You may need to use `--force` *
 
