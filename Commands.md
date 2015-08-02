@@ -135,3 +135,13 @@ $ `git push origin master`
 
 *You may need to use `--force` *
 
+## Tag
+
+Add a tag
+$ `git tag -a v1.4 -m 'my version 1.4'`
+
+Push single tag
+$ `git push origin v1.5`
+
+Push multiple tags
+$ `git push origin --tags`
